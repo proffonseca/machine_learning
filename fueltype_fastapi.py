@@ -4,10 +4,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 
 # Load the trained Random Forest model
-model = joblib.load('/Users/Lauren/Desktop/fossil_electric_rf_model.joblib')
+model = joblib.load('fossil_electric_rf_model.joblib')
 
 # Load the TF-IDF vectorizer
-vectorizer = joblib.load('/Users/Lauren/Desktop/fossil_electric_vectorizer.joblib')
+vectorizer = joblib.load('fossil_electric_vectorizer.joblib')
 
 # Define the FastAPI app
 app = FastAPI()
