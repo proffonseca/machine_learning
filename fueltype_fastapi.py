@@ -1,4 +1,4 @@
-from fastapi import FastA_PI
+from fastapi import FastAPI
 from pydantic import BaseModel
 from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
